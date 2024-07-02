@@ -1,0 +1,32 @@
+:root {
+    --lightBlue100: #f3f5fc;
+    --lightBlue200: #eff1fa;
+    --lightBlue300: #e9ecf8;
+    --lightBlue400: #aab2d5;
+    --lightBlue500: #757fb2;
+
+    --darkBlue100: #609ed4;
+    --darkBlue200: #356ea9;
+    --darkBlue300: #0a3871;
+    --darkBlue400: #072b61;
+    --darkBlue500: #052051;
+
+    --gray100: #ced4da;
+    --gray200: #adb5bd;
+    --gray300: #868e96;
+    --gray400: #495057;
+    --gray500: #343a40;
+    --white: #ffffff;
+    --colorHover: #272727;
+
+
+    --fuenteMontserrat: "Montserrat", sans-serif;
+    --fuenteKrona: "Krona One", sans-serif;
+}
+
+body {
+    background-color: var(--colorPrimario);
+    color: var(--colorSecundario);
+    height: 100vh;
+    box-sizing: border-box;
+}
