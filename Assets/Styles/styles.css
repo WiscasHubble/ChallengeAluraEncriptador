@@ -45,7 +45,7 @@ body {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    background-image: url('Assets/Img/fondo\ pastel.webp');
+    background-image: url("/Assets/Img/fondo pastel.webp");
     background-size: cover;
 
 }
@@ -123,21 +123,25 @@ body {
     transition: opacity 0.3s ease;
 }
 .botones .desencriptarBtn{
-    background-color: var(--lightBlue100);
+    background-color: var(--colorPrincipal);
+    border-color: var(--darkBlue500);
     display: flex;
     justify-content: center;
     padding: 1.5rem;
     width: 100%;
     border-radius: 1.5rem;
-    border: none;
+    border-width: 1px;
+    
     font-family: var(--fuentePrincipal);
     transition: opacity 0.3s ease;
 
 }
 .botones .encriptarBtn:hover,
-.botones .desencriptarBtn:hover {
-    opacity: 0.8;
+.botones .desencriptarBtn:hover,
+.copiar:hover {
+    opacity: 0.60;
 }
+
 
 
 
@@ -167,6 +171,7 @@ body {
 .parrafos {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -180,6 +185,24 @@ body {
     font-size: 1rem;
 }
 
+/*
+.copiarResultado {
+   display: flex;
+   justify-content: end;
+   flex-direction: column;
+   height: 50%;
+   
+}
+
+.copiar {
+    background-color: inherit;
+    width: 100%;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    font-family: var(--fuentePrincipal);
+    border-width: 1px;
+}
+*/
 .inputText,
 .botones {
     margin-top: 20px;
