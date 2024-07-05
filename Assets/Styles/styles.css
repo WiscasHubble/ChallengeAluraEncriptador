@@ -90,6 +90,7 @@ body {
     font-family: var(--fuentePrincipal);
     font-size: 0.75rem;
     color: var(--gray500);
+    transition: color 0.4s;
 }
 
 .inputText textarea {
@@ -109,6 +110,10 @@ body {
 .inputText textarea.error {
     border: 2px solid red; 
 }
+.parteInferior small.error {
+    color: red;
+}
+
 
 
 .botones {
@@ -256,4 +261,10 @@ body {
 .notification.show {
     display: block;
     opacity: 1;
+}
+
+@media (max-width: 768px) {
+
+
+
 }

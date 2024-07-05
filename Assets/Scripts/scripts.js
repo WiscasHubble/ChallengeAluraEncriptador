@@ -3,10 +3,12 @@ let selectedText = ''; //almacenamos el texto en un array
 function selectText() {
     const textInput = document.getElementById('txtArea').value.trim();
     var textarea = document.getElementById('txtArea');
+    var smallText = document.getElementById('smol');
 
     // Verificar si el campo está vacío
     if (validator.isEmpty(textInput)) {
         textarea.classList.add('error');
+        smallText.classList.add('error');
         return null;
     }
 
@@ -15,11 +17,13 @@ function selectText() {
 
     if (!lowercaseAndNoSpecialCharsRegex.test(textInput)) {
         textarea.classList.add('error');
+        smallText.classList.add('error');
         return null;
     }
 
     // Si pasa todas las validaciones, remover la clase de error
     textarea.classList.remove('error');
+    smallText.classList.remove('error');
     selectedText = textInput;
     return textInput;
 }
