@@ -104,6 +104,10 @@ body {
     box-sizing: border-box;
     background-color: var(--colorPrincipal);
     font-family: var(--fuentePrincipal);
+    transition: border-color 0.4s;
+}
+.inputText textarea.error {
+    border: 2px solid red; 
 }
 
 
@@ -232,4 +236,24 @@ body {
 
 .botones button {
     margin-right: 10px;
+}
+
+.notification {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50; /* Verde */
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: opacity 1s ease-out;
+}
+
+.notification.show {
+    display: block;
+    opacity: 1;
 }
