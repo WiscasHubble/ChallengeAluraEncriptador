@@ -27,9 +27,12 @@
 }
 
 @keyframes heartbeat {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: scale(1);
     }
+
     50% {
         transform: scale(1.4);
     }
@@ -80,13 +83,15 @@ body {
     display: flex;
     margin-top: 15%;
 }
-.parteInferior img{
+
+.parteInferior img {
     display: flex;
     margin-right: 10px;
     animation: heartbeat 2s ease-in-out infinite;
-    
+
 }
-.parteInferior small{
+
+.parteInferior small {
     font-family: var(--fuentePrincipal);
     font-size: 0.75rem;
     color: var(--gray500);
@@ -107,9 +112,11 @@ body {
     font-family: var(--fuentePrincipal);
     transition: border-color 0.4s;
 }
+
 .inputText textarea.error {
-    border: 2px solid red; 
+    border: 2px solid red;
 }
+
 .parteInferior small.error {
     color: red;
 }
@@ -119,9 +126,10 @@ body {
 .botones {
     display: flex;
     justify-content: center;
-    
+
 }
-.botones .encriptarBtn{
+
+.botones .encriptarBtn {
     background-color: var(--darkBlue300);
     color: white;
     padding: 1.5rem;
@@ -131,7 +139,8 @@ body {
     font-family: var(--fuentePrincipal);
     transition: opacity 0.3s ease;
 }
-.botones .desencriptarBtn{
+
+.botones .desencriptarBtn {
     background-color: var(--colorPrincipal);
     border-color: var(--darkBlue500);
     display: flex;
@@ -140,11 +149,12 @@ body {
     width: 100%;
     border-radius: 1.5rem;
     border-width: 1px;
-    
+
     font-family: var(--fuentePrincipal);
     transition: opacity 0.3s ease;
 
 }
+
 .botones .encriptarBtn:hover,
 .botones .desencriptarBtn:hover,
 .copiar:hover {
@@ -176,10 +186,11 @@ body {
     width: 100%;
     border-radius: 1.5rem;
     border-width: 1px;
-    
+
     font-family: var(--fuentePrincipal);
     transition: opacity 0.3s ease;
 }
+
 .resultados {
     background-color: var(--colorPrincipal);
     backdrop-filter: blur(5px);
@@ -252,7 +263,8 @@ body {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #4caf50; /* Verde */
+    background-color: #4caf50;
+    /* Verde */
     color: white;
     padding: 1rem;
     border-radius: 5px;
@@ -268,6 +280,63 @@ body {
 
 @media (max-width: 768px) {
 
+    body {
+        height: 100vh;
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        background-image: url("/Assets/Img/fondo pastel.webp");
+        background-size: cover;
+    
+    }
 
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 80vh;
+        justify-content: space-between;
+        padding: 4%;
+
+    }
+
+    .inputText {
+        width: 90%;
+        height: 30vh;
+        justify-content: center;
+    }
+
+    .ladoIzquierdo {
+        width: 100%;
+        height: 35%;
+
+    }
+
+    .botones {
+        display: flex;
+        justify-content: center;
+        max-width: 90%;
+    }
+
+    .resultados {
+        background-color: var(--colorPrincipal);
+        backdrop-filter: blur(5px);
+        border-radius: 1.5rem;
+        padding: 3.53%;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        width: 83vw;
+        height: 20vh;
+        max-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-family: var(--fuentePrincipal);
+    }
+
+    .resultados img {
+        display: none;
+
+    }
 
 }
