@@ -44,10 +44,6 @@
     </li>
     <li>
       <a href="#cómo-empezar-">¿Cómo empezar? 🐣</a>
-      <ul>
-        <li><a href="#prerequisitos">Prerequisitos</a></li>
-        <li><a href="#instalación">Instalación</a></li>
-      </ul>
     </li>
     <li><a href="#uso-">Uso ⌨️🖱️</a></li>
     <li><a href="#contacto-">Contacto 👤</a></li>
