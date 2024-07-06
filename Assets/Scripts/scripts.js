@@ -13,7 +13,7 @@ function selectText() {
     }
 
     // Verificar si el texto está en minúsculas y no contiene acentos ni caracteres especiales
-    const lowercaseAndNoSpecialCharsRegex = /^[a-z]+$/;
+    const lowercaseAndNoSpecialCharsRegex = /^[a-z\s.,!?¿¡]*$/;
 
     if (!lowercaseAndNoSpecialCharsRegex.test(textInput)) {
         textarea.classList.add('error');

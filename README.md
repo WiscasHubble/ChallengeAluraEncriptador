@@ -1,108 +1,133 @@
-# ChallengeAluraEncriptador
-Repositorio para el desarrollo del challenge del curso de logica de programación de Alura
+<!-- Improved compatibility of volver al inicio link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a id="readme-top"></a>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-# Título del Proyecto
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-_Acá va un párrafo que describa lo que es el proyecto_
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/WiscasHubble/ChallengeAluraEncriptador">
+    <img src="Assets/Img/conversor.png" alt="Logo" width="80" height="80">
+  </a>
 
-## Comenzando 🚀
+<h3 align="center">ChallengeAluraEncriptador</h3>
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+  <p align="center">
+    Encriptador de texto desarrollado con JS
+  </p>
+</div>
 
-Mira **Deployment** para conocer como desplegar el proyecto.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Tabla de contenidos</summary>
+  <ol>
+    <li>
+      <a href="#acerca-del-proyecto-">Acerca del proyecto 🐱📢</a>
+      <ul>
+        <li><a href="#características-principales">Características principales</a></li>
+        <li><a href="#construido-con">Construido con 🛠️</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#cómo-empezar-">¿Cómo empezar? 🐣</a>
+      <ul>
+        <li><a href="#prerequisitos">Prerequisitos</a></li>
+        <li><a href="#instalación">Instalación</a></li>
+      </ul>
+    </li>
+    <li><a href="#uso-">Uso ⌨️🖱️</a></li>
+    <li><a href="#contacto-">Contacto 👤</a></li>
+  </ol>
+</details>
 
+<!-- ABOUT THE PROJECT -->
+## Acerca del proyecto 🐱📢
 
-### Pre-requisitos 📋
+[![Product Name Screen Shot][product-screenshot]]
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Bienvenido al encriptador de texto, una herramienta sencilla pero efectiva desarrollada con JavaScript. Este proyecto tiene como objetivo proporcionar una forma rápida y segura de encriptar y desencriptar mensajes utilizando un conjunto específico de reglas de sustitución de caracteres. Ideal para aquellos que buscan una capa adicional de privacidad en sus comunicaciones cotidianas.
 
-```
-Da un ejemplo
-```
+### Características principales
 
-### Instalación 🔧
+- **Encriptación personalizada**: Transforma las vocales en tu texto mediante sustituciones únicas para mayor seguridad.
+  - La letra "e" se convierte en "enter".
+  - La letra "i" se convierte en "imes".
+  - La letra "a" se convierte en "ai".
+  - La letra "o" se convierte en "ober".
+  - La letra "u" se convierte en "ufat".
+- **Desencriptación fácil**: Revertir el texto encriptado a su forma original es tan sencillo como un clic.
+- **Validación de entrada**: Asegura que el texto ingresado esté en minúsculas y sin acentos o caracteres especiales.
+- **Interfaz amigable**: Una interfaz web intuitiva y fácil de usar que permite a los usuarios encriptar y desencriptar texto de manera eficiente.
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
-_Dí cómo será ese paso_
+### Construido con
 
-```
-Da un ejemplo
-```
+* [![HTML5][HTML5]][HTML5-url]
+* [![CSS3][CSS3]][CSS3-url]
+* [![JavaScript][JavaScript]][JavaScript-url]
 
-_Y repite_
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
-```
-hasta finalizar
-```
+<!-- GETTING STARTED -->
+## ¿Cómo empezar? 🐣
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+Para comenzar con este proyecto, sigue estos pasos:
 
-## Ejecutando las pruebas ⚙️
+1. Clona el repositorio: 
+    ```sh
+    git clone https://github.com/WiscasHubble/ChallengeAluraEncriptador.git
+    ```
+2. Abre el archivo `index.html` en tu navegador web.
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
-### Analice las pruebas end-to-end 🔩
+<!-- USAGE EXAMPLES -->
+## Uso ⌨️🖱️
 
-_Explica que verifican estas pruebas y por qué_
+1. Ingresa el texto que deseas encriptar en el textarea (asegúrate de que no sea un texto con mayúsculas, acentos o caracteres especiales).
+   
+   ![Captura del textarea](Assets/Img/Paso1.png)
 
-```
-Da un ejemplo
-```
+2. Haz clic en el botón "Encriptar".
+   
+   ![Captura del botón encriptar](Assets/Img/Paso2.png)
 
-### Y las pruebas de estilo de codificación ⌨️
+3. Copia el texto encriptado o desencripta un mensaje ingresando el texto encriptado y haciendo clic en "Desencriptar".
+   
+   ![Captura del botón desencriptar](Assets/Img/Paso3.png)
 
-_Explica que verifican estas pruebas y por qué_
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
-```
-Da un ejemplo
-```
+<!-- CONTACT -->
+## Contacto 👤
 
-## Despliegue 📦
+Link del proyecto: [https://github.com/WiscasHubble/ChallengeAluraEncriptador](https://github.com/WiscasHubble/ChallengeAluraEncriptador)
 
-_Agrega notas adicionales sobre como hacer deploy_
+LinkedIn: [www.linkedin.com/in/luis-acevedo-sl](https://www.linkedin.com/in/luis-acevedo-sl)
 
-## Construido con 🛠️
+<p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* Dona con cripto a esta dirección: `0xf253fc233333078436d111175e5a76a649890000`
-* etc.
-
-
-
----
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[product-screenshot]: Assets/Img/Screenshot.png
+[HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML5-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[CSS3]: https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS3-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[JavaScript]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
+[JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
