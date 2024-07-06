@@ -45,7 +45,7 @@
     <li>
       <a href="#cómo-empezar-">¿Cómo empezar? 🐣</a>
     </li>
-    <li><a href="#uso-">Uso ⌨️🖱️</a></li>
+    <li><a href="#uso">Uso ⌨️🖱️</a></li>
     <li><a href="#contacto-">Contacto 👤</a></li>
   </ol>
 </details>
@@ -93,7 +93,7 @@ Para comenzar con este proyecto, sigue estos pasos:
 <p align="right">(<a href="#readme-top">volver al inicio</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Uso ⌨️🖱️
+## Uso ⌨️🖱️ <a id="uso"></a>
 
 1. Ingresa el texto que deseas encriptar en el textarea (asegúrate de que no sea un texto con mayúsculas, acentos o caracteres especiales).
    
